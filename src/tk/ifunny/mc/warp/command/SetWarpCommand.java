@@ -25,7 +25,10 @@ public class SetWarpCommand implements CommandExecutor {
 				if(args.length == 1) {
 					String warpname = args[0];
 					String author = player.getName();
-					int id = (plugin.warps.get(plugin.warps.size() - 1).getId() + 1);
+					int id = 1;
+					if(plugin.warps.size() != 0) {
+						id = (plugin.warps.get(plugin.warps.size() - 1).getId() + 1);
+					}
 					String world = player.getWorld().getName();
 					double x = player.getLocation().getX();
 					double y = player.getLocation().getY();
