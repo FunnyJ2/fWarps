@@ -1,0 +1,25 @@
+author: I_am_not_funny
+version: 1.0
+name: fWarps
+main: tk.ifunny.mc.warp.WarpPlugin
+description: warp plugin
+commands:
+  warp:
+    description: whooosh
+    usage: /<command> <warp>
+  warplist:
+    description: list all warps
+    usage: /<command>
+    aliases: ['warps', 'listwarp', 'listwarps']
+  warpinfo:
+    description: show info about a warp
+    usage: /<command> <warp>
+    aliases: ['winfo']
+  setwarp:
+    description: set a warp
+    usage: /<command> <warpname>
+    aliases: ['addwarp']
+  removewarp:
+    description: remove a warp
+    usage: /<command> <warp>
+    aliases: ['deletewarp', 'delwarp']

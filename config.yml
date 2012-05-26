@@ -1,0 +1,12 @@
+mysql:
+  hostname: 'localhost'
+  username: 'usernamehere'
+  password: 'passwordhere'
+  database: 'databasename'
+permissions:
+  warp: 'fwarps.warp'
+  warplist: 'fwarps.warplist'
+  warpinfo: 'fwarps.warpinfo'
+  setwarp: 'fwarps.setwarp'
+  removewarp: 'fwarps.removewarp'
+logstartup: true
